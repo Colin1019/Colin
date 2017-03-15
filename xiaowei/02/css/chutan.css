@@ -1,0 +1,139 @@
+﻿body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p{
+  padding:0;
+  margin:0;
+  font-size:13px;
+}
+ul,ol{
+	list-style:none;
+}
+img,a img{
+	border:none;
+	text-decoration:none;
+}
+#main{
+  max-width:1000px;
+  margin:0 auto;
+ 
+}
+header{
+  height:200px;
+  background:url(../img/look.bg.png) no-repeat;
+  background-color:green;
+  border:1px solid #000;
+  border-radius:5px;
+}
+header h1{
+  line-height:200px;
+  font-size:5em;
+  padding-left:50px;
+  position:relative;
+  color:white;
+  text-shadow:1px 1px 1px;
+}
+header p{
+  position:absolute;
+  top:90px;
+  left:500px;
+  line-height:100px;
+}
+a.ht{
+	margin-left:210px;
+}
+
+p{ font-family: "新宋体" ;
+   text-indent:10px;
+   letter-spacing:2px;
+   line-height:1.5;
+   padding:10px;
+   font-size:16px;
+}
+li{
+	list-style:disc;
+	line-height:2;
+	margin-left:20px;
+	padding:5px;
+	font-size:15px;
+	
+}
+nav{
+	background-color:#999;
+	background:url(../img/look.bg.png) no-repeat;
+	margin:5px 0;
+	overflow:hidden;
+}
+nav li{
+	list-style:none;
+	margin-right:100px;
+	width:100px;
+	height:50px;
+	float:left;
+	font-size:1em;
+	line-height:50px;
+	text-align:center;
+}
+nav a{
+	display:block;
+	text-decoration:none;
+	border:1px solid red;
+	border-radius:5px;
+	background-color:white;
+}
+nav a:hover{
+	text-decoration:underline;
+	background-color:red;
+	color:white;
+}
+
+.yun{
+	margin:10px 0;
+	border:5px ridge #999;
+	}
+
+.yun h2{
+	font-size:2em;
+	font-family:"微软雅黑";
+	height:50px;
+	background:url(../img/look.bg.png) no-repeat;
+	line-height:50px;
+    padding-left:10px;
+	color: #FFF;
+	border:1px solid #000;
+	border-radius:2px;
+}
+form{
+	margin:20px 0 0 20px;
+	
+}
+.label{
+	float:left;
+	width:10em;
+}
+
+input[type],textarea{
+	border-top:2px solid #999;
+	border-left:2px solid #999;
+	border-buttom:1px solid #ccc;
+	border-right:1px solid #ccc;
+	cursor:pointer;
+	}
+input[type=submit],input[type=reset]{
+    border:1px solid #000;
+	border-radius:10px;
+	color:#03F;
+	width:224px;
+	height:54px;
+	margin:10px 0 10px 10px;
+}
+input[type=submit]:hover,input[type=submit]:active,
+input[type=reset]:hover,input[type=reset]:active{
+	color: #FFF;
+	font-weight:bold;
+	background:url(../img/anniu.bg.png) no-repeat;
+}
+footer{
+	background:url(../img/look.bg.png) no-repeat;
+	text-align:center;
+	line-height:100px;
+	font-weight:bold;
+}	
+	
