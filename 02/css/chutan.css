@@ -18,7 +18,6 @@ img,a img{
 header{
   height:200px;
   background:url(../img/look.bg.png) no-repeat;
-  background-color:green;
   border:1px solid #000;
   border-radius:5px;
 }
@@ -56,7 +55,6 @@ li{
 	
 }
 nav{
-	background-color:#999;
 	background:url(../img/look.bg.png) no-repeat;
 	margin:5px 0;
 	overflow:hidden;
