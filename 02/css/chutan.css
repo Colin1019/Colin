@@ -98,7 +98,8 @@ nav a:hover{
 	border:1px solid #000;
 	border-radius:2px;
 }
-form{
+form{   
+	display:table;
 	margin-left:300px;
 	padding:10px;
 	font-weight:bold;
