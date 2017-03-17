@@ -101,6 +101,7 @@ nav a:hover{
 form{   
 	display:table;
 	margin-left:300px;
+	margin-top:10px;
 	padding:10px;
 	
 }
