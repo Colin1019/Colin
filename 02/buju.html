@@ -16,9 +16,17 @@ body{
      padding:20px;
      border:1px solid #999;
      background-color:#eee;
-     overflow:auto;
-     zoom:1;
 }
+#main:after,#main:before{
+    content:"";
+    display:table;
+}
+#main:after{
+   clear:both;
+}
+#main{
+  zoom:1;
+  }
 #left,#middle,#right{
      padding:20px;
 }
